@@ -1,0 +1,306 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e7]:
+          - link "Daniel Alves" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - button "Menu" [ref=e9] [cursor=pointer]:
+            - img [ref=e10]
+      - generic [ref=e11]:
+        - img
+        - generic [ref=e13]:
+          - generic [ref=e15]:
+            - img [ref=e16]
+            - text: Atoms · Engenharia de IA Aplicada
+          - heading "Já aumentei margem e reduzi custo operacional. Sistemas que vendem enquanto o dono dorme." [level=1] [ref=e18]:
+            - generic "Já aumentei margem e" [ref=e19]:
+              - generic [ref=e20]: Já
+              - generic [ref=e21]: aumentei
+              - generic [ref=e22]: margem
+              - generic [ref=e23]: e
+            - generic "reduzi custo operacional." [ref=e24]:
+              - generic [ref=e25]: reduzi
+              - generic [ref=e26]: custo
+              - generic [ref=e27]: operacional.
+            - generic "Sistemas que vendem" [ref=e28]:
+              - generic [ref=e29]: Sistemas
+              - generic [ref=e30]: que
+              - generic [ref=e31]: vendem
+            - generic "enquanto o dono dorme." [ref=e32]:
+              - generic [ref=e33]: enquanto
+              - generic [ref=e34]: o
+              - generic [ref=e35]: dono
+              - generic [ref=e36]: dorme.
+          - generic [ref=e38]:
+            - textbox "Qual o gargalo que está custando mais caro na sua operação hoje?" [ref=e39]
+            - button [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+          - generic [ref=e44]:
+            - generic [ref=e45]: "Exemplos:"
+            - button "Automatizar conciliação bancária" [ref=e46] [cursor=pointer]
+            - button "Recuperação de carrinhos no WhatsApp" [ref=e47] [cursor=pointer]
+            - button "Substituir suporte por agentes integrados" [ref=e48] [cursor=pointer]
+          - generic [ref=e49]:
+            - button "Quero saber se meu negócio se qualifica" [ref=e50] [cursor=pointer]
+            - paragraph [ref=e51]: Arquitetura de Sistemas Conversacionais & Verticais
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - img [ref=e56]
+            - generic [ref=e59]: Ecossistema Atoms
+          - heading "Pipeline de Agentes Verticais." [level=2] [ref=e60]:
+            - text: Pipeline de Agentes
+            - emphasis [ref=e61]: Verticais.
+          - paragraph [ref=e62]: Sua empresa não precisa de ferramentas avulsas. Precisa de agentes verticais que recebem o input, geram o ativo, distribuem e cuidam do caixa integrados na mesma pipeline.
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: "01"
+              - generic [ref=e69]: Motion & Criação de Conteúdo
+              - heading "Agente Audiovisual" [level=3] [ref=e70]
+              - paragraph [ref=e71]: Transcreve briefings, renderiza vídeos curtos em lotes e automatiza a geração de ativos visuais em massa para marketing e produtos.
+              - generic [ref=e72]:
+                - generic [ref=e73]: Postar vídeos
+                - generic [ref=e74]: Editar cortes automáticos
+                - generic [ref=e75]: Transcrever áudios
+                - generic [ref=e76]: Gerar criativos
+            - img [ref=e79]
+            - generic [ref=e84]:
+              - img [ref=e85]
+              - generic [ref=e88]: Agente Audiovisual
+              - generic [ref=e89]: online
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: "02"
+              - generic [ref=e96]: Distribuição & Otimização de Lances
+              - heading "Agente Gestor de Tráfego" [level=3] [ref=e97]
+              - paragraph [ref=e98]: Monitora o ROI de campanhas de anúncios em tempo real, ajusta bids automaticamente e aloca verba entre Meta Ads e Google Ads.
+              - generic [ref=e99]:
+                - generic [ref=e100]: Postar campanhas
+                - generic [ref=e101]: Gerir verbas
+                - generic [ref=e102]: Testar anúncios
+                - generic [ref=e103]: Realocar metas
+            - img [ref=e106]
+            - generic [ref=e112]:
+              - img [ref=e113]
+              - generic [ref=e117]: Agente Gestor de Tráfego
+              - generic [ref=e118]: online
+          - generic [ref=e121]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: "03"
+              - generic [ref=e125]: Triagem Conversacional & Vendas
+              - heading "Agente de Atendimento" [level=3] [ref=e126]
+              - paragraph [ref=e127]: Interage diretamente com leads no WhatsApp, qualifica de acordo com o playbook da empresa e agenda reuniões diretamente no calendário.
+              - generic [ref=e128]:
+                - generic [ref=e129]: Qualificar leads
+                - generic [ref=e130]: Responder clientes 24/7
+                - generic [ref=e131]: Agendar reuniões
+                - generic [ref=e132]: Atualizar CRM
+            - img [ref=e135]
+            - generic [ref=e141]:
+              - img [ref=e142]
+              - generic [ref=e146]: Agente de Atendimento
+              - generic [ref=e147]: online
+          - generic [ref=e150]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: "04"
+              - generic [ref=e154]: Faturamento & Cobrança Automática
+              - heading "Agente Financeiro" [level=3] [ref=e155]
+              - paragraph [ref=e156]: Emite links de pagamento e Pix, envia alertas amigáveis de cobrança e faz a conciliação automática ligando o banco ao CRM.
+              - generic [ref=e157]:
+                - generic [ref=e158]: Emitir Notas Fiscais
+                - generic [ref=e159]: Cobrar inadimplentes
+                - generic [ref=e160]: Conciliar Pix/Cartão
+                - generic [ref=e161]: Gerar links Pix
+            - img [ref=e164]
+            - generic [ref=e168]:
+              - img [ref=e169]
+              - generic [ref=e171]: Agente Financeiro
+              - generic [ref=e172]: online
+          - generic [ref=e175]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: "05"
+              - generic [ref=e179]: Automação e Deploy de Microserviços
+              - heading "Dev-Agent (AI Developer)" [level=3] [ref=e180]
+              - paragraph [ref=e181]: Cria webhooks, monitora a infraestrutura do ecossistema Atoms e executa correções autônomas em scripts de integração.
+              - generic [ref=e182]:
+                - generic [ref=e183]: Integrar sistemas
+                - generic [ref=e184]: Criar webhooks
+                - generic [ref=e185]: Corrigir bugs
+                - generic [ref=e186]: Monitorar servidores
+            - img [ref=e189]
+            - generic [ref=e194]:
+              - img [ref=e195]
+              - generic [ref=e198]: Dev-Agent (AI Developer)
+              - generic [ref=e199]: online
+        - generic [ref=e202]:
+          - img [ref=e204]
+          - generic [ref=e206]: Fluxo de entrega contínua de IA
+      - generic [ref=e209]:
+        - generic [ref=e210]:
+          - generic [ref=e211]: O método em duas colunas
+          - heading "O que não funciona VS o que eu faço diferente" [level=2] [ref=e212]:
+            - text: O que
+            - emphasis [ref=e213]: não funciona
+            - generic [ref=e214]: VS
+            - text: o que eu faço diferente
+          - paragraph [ref=e215]: Antes de te vender qualquer coisa, deixa eu te mostrar onde o seu dinheiro costuma virar fumaça.
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - heading "Padrão de mercado" [level=3] [ref=e218]
+            - generic [ref=e219]:
+              - listitem [ref=e220]:
+                - generic [ref=e221]: ✕
+                - generic [ref=e222]: Agência de IA que entrega fluxo solto no ChatGPT — sem integração com seu WhatsApp, sem leitura de banco, sem regra de negócio.
+              - listitem [ref=e223]:
+                - generic [ref=e224]: ✕
+                - generic [ref=e225]: Dev freelancer que codifica sem entender margem, ticket ou funil — entrega o que você pediu, não o que faz o caixa crescer.
+              - listitem [ref=e226]:
+                - generic [ref=e227]: ✕
+                - generic [ref=e228]: Chatbot genérico vendido como “IA” — script com if/else reembalado, sem memória, sem agente, sem orquestração.
+              - listitem [ref=e229]:
+                - generic [ref=e230]: ✕
+                - generic [ref=e231]: Consultoria que sai com PDF, slide e plano de 90 dias — você paga, assina, e continua sem nada rodando.
+          - generic [ref=e232]:
+            - heading "Como eu trabalho" [level=3] [ref=e233]
+            - generic [ref=e234]:
+              - listitem [ref=e235]:
+                - generic [ref=e236]: →
+                - generic [ref=e237]: Eu construo sistema rodando, não apresentação — você recebe credenciais de produção, não Loom de demo.
+              - listitem [ref=e238]:
+                - generic [ref=e239]: →
+                - generic [ref=e240]: Eu falo de negócio antes de stack — mapeio margem, ticket e gargalo de atendimento antes de escolher modelo.
+              - listitem [ref=e241]:
+                - generic [ref=e242]: →
+                - generic [ref=e243]: Eu integro com WhatsApp Cloud, Mercado Pago, Stripe, Google Calendar e seu ERP — IA que mexe no que importa.
+              - listitem [ref=e244]:
+                - generic [ref=e245]: →
+                - generic [ref=e246]: Eu mantenho o sistema em pé por 60 dias depois do go-live — se cair, eu acordo. Incluído no projeto.
+      - generic [ref=e249]:
+        - generic [ref=e250]:
+          - generic [ref=e251]: O método
+          - heading "Em 6 semanas, sua operação pode rodar com menos gente, mais receita e zero retrabalho." [level=2] [ref=e252]:
+            - text: Em 6 semanas, sua operação pode rodar com
+            - emphasis [ref=e253]: menos gente, mais receita
+            - text: e zero retrabalho.
+          - paragraph [ref=e254]: Ou você continua operando igual.
+          - paragraph [ref=e255]: 4 fases · linha do tempo total de 3 a 6 semanas
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - generic [ref=e258]: "01"
+            - generic [ref=e259]: Diagnóstico de negócio
+            - paragraph [ref=e260]: "Eu sento com você (ou com seu time) e mapeio onde a IA paga a conta: gargalo de atendimento, custo por lead, abandono no checkout, retrabalho do time."
+            - generic [ref=e261]: → Mapa de processos + ROI estimado · em 1 semana
+          - generic [ref=e262]:
+            - generic [ref=e263]: "02"
+            - generic [ref=e264]: Arquitetura técnica
+            - paragraph [ref=e265]: Escolho a stack pelo seu problema, não pelo hype. Multi-agente quando faz sentido, automação simples quando resolve. Tudo no seu domínio, no seu banco, com seu time operando.
+            - generic [ref=e266]: → Diagrama + stack + escopo fechado · em 1 semana
+          - generic [ref=e267]:
+            - generic [ref=e268]: "03"
+            - generic [ref=e269]: Construção e integração
+            - paragraph [ref=e270]: Aqui eu codifico, integro e testo. WhatsApp Cloud, Mercado Pago, Stripe, Google Calendar, n8n, Supabase, ERPs e CRMs que você já usa. Sem reinventar roda.
+            - generic [ref=e271]: → Produção + 1 fluxo crítico no ar · 2 a 4 semanas
+          - generic [ref=e272]:
+            - generic [ref=e273]: "04"
+            - generic [ref=e274]: Operação assistida
+            - paragraph [ref=e275]: Vou junto nos primeiros 60 dias. Acompanho métrica, ajusto prompt, escalo capacidade, treino seu time pra operar sem depender de mim.
+            - generic [ref=e276]: → Dashboard + 2 ajustes/mês · 60 dias inclusos
+      - generic [ref=e279]:
+        - generic [ref=e281]: Sobre
+        - generic [ref=e282]:
+          - generic [ref=e284]:
+            - img "Daniel Alves" [ref=e285]
+            - generic [ref=e287]: Daniel Alves · Brasil
+          - generic [ref=e288]:
+            - heading "Eu domino IA porque construo sistemas reais." [level=2] [ref=e290]:
+              - text: Eu domino IA porque
+              - emphasis [ref=e291]: construo sistemas reais.
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: "Sou engenheiro de IA aplicada e desenvolvedor full-stack. Enquanto a maioria fala em IA, eu entrego: agentes de atendimento que fecham vendas, automações que eliminam retrabalho e sistemas que escalam sem aumentar headcount."
+              - paragraph [ref=e294]: Entrego landing pages, sistemas conversacionais e infraestrutura de IA do zero — com o seu time operando de forma autônoma em até 60 dias.
+            - generic [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e298]: IA & Agentes
+                - generic [ref=e299]:
+                  - generic [ref=e300]: Claude / GPT-4o
+                  - generic [ref=e301]: Agentes de Atendimento
+                  - generic [ref=e302]: RAG & Embeddings
+                  - generic [ref=e303]: LangChain
+                  - generic [ref=e304]: n8n
+                  - generic [ref=e305]: Webhooks
+              - generic [ref=e306]:
+                - generic [ref=e307]: Banco & Backend
+                - generic [ref=e308]:
+                  - generic [ref=e309]: Supabase
+                  - generic [ref=e310]: PostgreSQL
+                  - generic [ref=e311]: Edge Functions
+              - generic [ref=e312]:
+                - generic [ref=e313]: Google Suite
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Google Calendar API
+                  - generic [ref=e316]: Google Sheets API
+                  - generic [ref=e317]: Gmail API
+                  - generic [ref=e318]: Google Drive API
+              - generic [ref=e319]:
+                - generic [ref=e320]: Frontend & Deploy
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Next.js
+                  - generic [ref=e323]: React
+                  - generic [ref=e324]: Landing Pages
+                  - generic [ref=e325]: Vercel
+                  - generic [ref=e326]: Railway
+                  - generic [ref=e327]: Docker
+                  - generic [ref=e328]: CI/CD
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]: Conversa com retorno
+          - heading "Me conta seu cenário. Eu volto com a próxima que eu construo." [level=2] [ref=e336]:
+            - text: Me conta seu cenário.
+            - text: Eu volto com a
+            - emphasis [ref=e337]: próxima
+            - text: que eu construo.
+          - paragraph [ref=e338]: Se o seu caso couber, eu te mando arquitetura e faixa de preço em 24h. Se não couber, eu te digo direto e indico quem resolve.
+          - generic [ref=e339]:
+            - generic [ref=e340]: "O que você recebe:"
+            - generic [ref=e341]:
+              - img [ref=e342]
+              - generic [ref=e344]: Viabilidade técnica do seu caso — em texto, não em 'vamos marcar outra'.
+            - generic [ref=e345]:
+              - img [ref=e346]
+              - generic [ref=e348]: Arquitetura sugerida com diagrama — direto, em português.
+            - generic [ref=e349]:
+              - img [ref=e350]
+              - generic [ref=e352]: Faixa de prazo e investimento — sem 'depende', sem proposta aberta.
+        - generic [ref=e354]:
+          - textbox "Como você quer ser chamado" [ref=e355]
+          - textbox "WhatsApp — eu respondo por aqui" [ref=e356]
+          - textbox "E-mail — pra eu te mandar a arquitetura" [ref=e357]
+          - textbox "Nome da sua empresa ou marca" [ref=e358]
+          - 'textbox "Me conta em 3 linhas: o que sua empresa faz, qual o gargalo, e o que você já tentou" [ref=e359]'
+          - button "Quero minha análise de aplicação" [ref=e360] [cursor=pointer]
+          - paragraph [ref=e361]: Seus dados ficam comigo. Sem newsletter, sem CRM compartilhado.
+      - contentinfo [ref=e362]:
+        - generic [ref=e363]:
+          - generic [ref=e364]: © 2026 Daniel Alves · Engenheiro de IA Aplicada
+          - generic [ref=e365]:
+            - link "GitHub" [ref=e366] [cursor=pointer]:
+              - /url: https://github.com/
+              - img [ref=e367]
+            - link "LinkedIn" [ref=e370] [cursor=pointer]:
+              - /url: https://www.linkedin.com/
+              - img [ref=e371]
+            - link "Instagram" [ref=e375] [cursor=pointer]:
+              - /url: https://www.instagram.com/atoms_/
+              - img [ref=e376]
+            - link "WhatsApp" [ref=e379] [cursor=pointer]:
+              - /url: https://wa.me/5564992698259
+              - img [ref=e380]
+            - generic [ref=e382]: Brasil
+    - link "WhatsApp":
+      - /url: https://wa.me/5564992698259
+      - img

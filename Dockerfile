@@ -1,0 +1,28 @@
+# Build stage
+FROM node:20-alpine AS builder
+WORKDIR /app
+
+# Build args para variáveis Vite (injetadas em tempo de build)
+ARG VITE_SUPABASE_URL
+ARG VITE_SUPABASE_PUBLISHABLE_KEY
+ARG VITE_PAPERCLIP_EMBED_URL
+ARG VITE_PAPERCLIP_EMBED_TOKEN
+ARG VITE_GOOGLE_TTS_API_KEY
+
+ENV VITE_SUPABASE_URL=$VITE_SUPABASE_URL
+ENV VITE_SUPABASE_PUBLISHABLE_KEY=$VITE_SUPABASE_PUBLISHABLE_KEY
+ENV VITE_PAPERCLIP_EMBED_URL=$VITE_PAPERCLIP_EMBED_URL
+ENV VITE_PAPERCLIP_EMBED_TOKEN=$VITE_PAPERCLIP_EMBED_TOKEN
+ENV VITE_GOOGLE_TTS_API_KEY=$VITE_GOOGLE_TTS_API_KEY
+
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+# Serve stage
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

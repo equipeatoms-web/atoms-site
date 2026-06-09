@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env files — NUNCA commitar
+.env
+.env.local
+.env.*.local
+
+# Scripts de deploy internos
+scripts/
+docs/migracao-sdr/
+
+# Playwright / ferramentas internas
+.playwright-mcp/
+.mcp.json
+
+# Arquivos de debug/screenshot locais
+*.jpeg
+*.jpg
+*.png
+*.gif
+!public/**
+!src/**
+
+# Specs internas / docs de planejamento
+nexsimple-specs/
+docs/CONSULTORIA-AGENT-PLAN.html
+docs/FUNIL-ATOMS-PLAN.html
+docs/paperclip/
+
+# Claude Code
+.claude/
