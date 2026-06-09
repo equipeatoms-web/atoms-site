@@ -25,7 +25,7 @@ export const Header = () => {
   const links: { id: string; label: string; href?: string }[] = [
     { id: "solucoes", label: "Soluções", href: "/solucoes" },
     { id: "metodologia", label: "O método" },
-    { id: "problema", label: "Por que a ATom's" },
+    { id: "problema", label: "A ATom's" },
     { id: "sobre", label: "Quem somos" },
   ];
 
