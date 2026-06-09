@@ -86,11 +86,14 @@ const StatusBadge = ({ status }: { status: LeadStatus | null }) => {
 
 // ─── Main component ──────────────────────────────────────────────────────────
 
+const PAPERCLIP_EMAILS = ['daniel.ara.alves@gmail.com', 'adm@acomunidadeestetica.com'];
+
 const Admin = () => {
   const { user, loading, signOut } = useAuth();
   const { toast } = useToast();
   const qc = useQueryClient();
   const [activeTab, setActiveTab] = useState<AdminTab>('dashboard');
+  const hasPaperclip = PAPERCLIP_EMAILS.includes(user?.email ?? '');
   const [selectedLead, setSelectedLead] = useState<Lead | null>(null);
   const [filterStatus, setFilterStatus] = useState<LeadStatus | 'all'>('all');
   const [notes, setNotes] = useState('');
@@ -195,6 +198,7 @@ const Admin = () => {
               <LayoutDashboard className="w-3.5 h-3.5" />
               Dashboard
             </button>
+            {hasPaperclip && (
             <button
               onClick={() => setActiveTab('paperclip')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-sm text-xs font-medium transition-all ${
@@ -206,6 +210,7 @@ const Admin = () => {
               <Paperclip className="w-3.5 h-3.5" />
               Paperclip
             </button>
+            )}
             <button
               onClick={() => setActiveTab('consultoria')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-sm text-xs font-medium transition-all ${
@@ -250,6 +255,7 @@ const Admin = () => {
             <LayoutDashboard className="w-3.5 h-3.5" />
             Dashboard
           </button>
+          {hasPaperclip && (
           <button
             onClick={() => setActiveTab('paperclip')}
             className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium transition-colors ${
@@ -259,6 +265,7 @@ const Admin = () => {
             <Paperclip className="w-3.5 h-3.5" />
             Paperclip
           </button>
+          )}
           <button
             onClick={() => setActiveTab('consultoria')}
             className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-medium transition-colors ${
@@ -281,7 +288,7 @@ const Admin = () => {
       </header>
 
       {/* Paperclip tab */}
-      {activeTab === 'paperclip' && (
+      {activeTab === 'paperclip' && hasPaperclip && (
         <div className="h-[calc(100vh-56px)] w-full bg-black">
           <PaperclipEmbed />
         </div>

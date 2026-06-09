@@ -5,12 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Link, Navigate } from 'react-router-dom';
 import { useToast } from '@/hooks/use-toast';
-import { ArrowLeft, Eye, EyeOff, Zap } from 'lucide-react';
-
-const QUICK_LOGIN = {
-  email: 'daniel.ara.alves@gmail.com',
-  password: '712471',
-};
+import { ArrowLeft, Eye, EyeOff } from 'lucide-react';
 
 const Auth = () => {
   const [email, setEmail] = useState('');
@@ -36,11 +31,6 @@ const Auth = () => {
     } finally {
       setLoading(false);
     }
-  };
-
-  const handleQuickLogin = () => {
-    setEmail(QUICK_LOGIN.email);
-    setPassword(QUICK_LOGIN.password);
   };
 
   return (
@@ -76,24 +66,6 @@ const Auth = () => {
           <h1 className="text-2xl font-serif text-foreground mb-1">Bem-vindo de volta</h1>
           <p className="text-sm text-muted-foreground">Acesse seu painel de controle.</p>
         </div>
-
-        {/* Quick access hint */}
-        <button
-          type="button"
-          onClick={handleQuickLogin}
-          className="w-full mb-5 flex items-center gap-2.5 px-4 py-2.5 rounded-sm border border-border/60 bg-card/40 hover:bg-card/80 hover:border-primary/30 transition-all text-left group"
-        >
-          <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-            <Zap className="w-3 h-3 text-primary" />
-          </div>
-          <div>
-            <p className="text-xs font-medium text-foreground group-hover:text-primary transition-colors">Acesso rápido</p>
-            <p className="text-[10px] text-muted-foreground">{QUICK_LOGIN.email}</p>
-          </div>
-          <span className="ml-auto text-[10px] text-muted-foreground/60 group-hover:text-primary/60 transition-colors">
-            Preencher →
-          </span>
-        </button>
 
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
